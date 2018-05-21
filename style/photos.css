@@ -1,0 +1,74 @@
+/* CSS Document */
+
+/*container是相册的主体样式*/
+.container{
+	width:961px;
+	height:auto;
+	position:relative;
+	margin:1px auto 0 auto;
+	padding:10px 10px 10px 12px;
+	background:url(../img_cnosn/Photo_midbg.gif) repeat-y;
+}
+		/*Chrome hack*/
+@media screen and (-webkit-min-device-pixel-ratio:0){ .container {
+	height:904px;
+	margin:1px auto 19px auto;
+} }
+
+.album_position{
+	background:url(../img_cnosn/photo_topbg.gif) no-repeat;
+	height:27px;
+	color:#aaa;
+	margin:-10px -10px -10px -12px;
+	padding:27px 0 0 38px;
+	font-family:"宋体";
+}
+ .album_position a{
+	 color:#aaa;
+}
+
+.container div p {
+	margin:10px auto;
+	font-family:"Microsoft yahei";
+	font-size:16px;
+	text-align:center;
+}
+
+.album_photos{
+	width:300px;
+	heght:200px;
+	border:2px solid #ffffff;
+	position:relative;
+	float:left;
+	margin:8px 8px 8px 8px !important;
+	overflow:hidden;
+}
+.album_photos a img{
+	width:300px;
+	height:200px;
+}
+
+.album_photos h5{ 
+	position:absolute;
+	width:100%;
+	height:20px;
+	background:#222222;
+	z-index:1;
+	top: 203px;
+	text-align:left;
+	padding:7px;
+}
+.album_photos h5 a{
+	color:#ffffff;
+	font-family:"Microsoft yahei", Arial;
+	font-size:15px;
+
+}
+/*底部圆角边框*/
+#botbg{
+	background:url(../img_cnosn/photo_botbg.gif) no-repeat;
+	height:19px;
+	clear:both;
+	margin:0 -10px -10px -12px;
+	width:983px;
+}
