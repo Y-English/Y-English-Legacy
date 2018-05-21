@@ -1,0 +1,23 @@
+/*头部整体居中，背景设为世界地图*/
+#header {
+	height:115px; 
+	width:983px;
+	margin:0 auto;
+	position:reletive;
+	background:url(../../image/ditu.png) no-repeat 644px center;
+	}
+/*头部左侧的LOGO，使用h1标题，便于搜索引擎采纳关键字*/
+#header h1 {
+	width:190px; 
+	float:left; 
+	height:81px; 
+	text-indent:-2000px; 
+	background:url(../../image/Logo.jpg) no-repeat left center;
+	}
+#header .xchuan { 
+	width:460px;
+	height:81px; 
+	float:left; 
+	text-indent:-2000px; 
+	background:url(../../image/yn_06.gif) no-repeat left center; 
+	}
