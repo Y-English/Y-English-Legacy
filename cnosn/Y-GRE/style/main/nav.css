@@ -1,0 +1,69 @@
+/*导航条样式表*/
+#navigation {
+	clear:both;
+	width:983px;
+	height:40px;
+	margin:0 auto;
+	position:relative;
+	}
+#navigation ul li { 
+	width:125px; 
+	height:40px; 
+	float:left;
+	position:relative;
+	}
+#navigation ul li a { 
+	display:block; 
+	width:100%;
+	height:100%; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	letter-spacing:-1px;
+	text-align:center; 
+	line-height:300%; 
+	font-weight:bold;
+	}
+#nav1 { background:url(../../image/nav1.png) no-repeat;}
+#nav2 { background:url(../../image/nav2.png) no-repeat;}
+#nav3 { background:url(../../image/nav3.png) no-repeat;}
+#nav4 { background:url(../../image/nav4.png) no-repeat;}
+#nav5 { background:url(../../image/nav5.png) no-repeat;}
+#nav6 {
+	background:#F00;
+	padding:1px; 
+	height:38px;
+	}
+#nav6 a{
+	color:#F00;
+	width:95%;
+	height:95%;
+	background:#fff;}
+/*为适应ie内核ul不能直接包含li以外标签，将form拎出列表，和ul并列左漂浮*/
+#form1 {
+	width:230px; 
+	height:40px; 
+	background:url(../../image/search.png) no-repeat right center;
+	text-align:left;
+	position:relative;
+	float:left
+	}
+#searchtext{
+	clear:both;
+	width:155px;
+	background:none;
+	border:none;
+	height:22px;
+	position:absolute;
+	left:23px;
+	top:10px;
+	line-height:150%;
+	color:#bbb;
+	}
+#imagefield {
+	position:absolute;
+	left:183px;
+	top:9px;
+	width:40px;
+	height:25px;
+	background:none;
+	}
